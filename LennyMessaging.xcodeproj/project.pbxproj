@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */; };
+		F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */; };
+		F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D87323B0D6CD00DC7921 /* ContentView.swift */; };
+		F119D87623B0D6D000DC7921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F119D87523B0D6D000DC7921 /* Assets.xcassets */; };
+		F119D87923B0D6D000DC7921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F119D87823B0D6D000DC7921 /* Preview Assets.xcassets */; };
+		F119D87C23B0D6D000DC7921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F119D87A23B0D6D000DC7921 /* LaunchScreen.storyboard */; };
+		F119D88723B0D6D000DC7921 /* LennyMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D88623B0D6D000DC7921 /* LennyMessagingTests.swift */; };
+		F119D89223B0D6D000DC7921 /* LennyMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D89123B0D6D000DC7921 /* LennyMessagingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F119D88323B0D6D000DC7921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119D86423B0D6CD00DC7921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F119D86B23B0D6CD00DC7921;
+			remoteInfo = LennyMessaging;
+		};
+		F119D88E23B0D6D000DC7921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119D86423B0D6CD00DC7921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F119D86B23B0D6CD00DC7921;
+			remoteInfo = LennyMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F119D86C23B0D6CD00DC7921 /* LennyMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LennyMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F119D87323B0D6CD00DC7921 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F119D87523B0D6D000DC7921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F119D87823B0D6D000DC7921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F119D87B23B0D6D000DC7921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F119D87D23B0D6D000DC7921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F119D88223B0D6D000DC7921 /* LennyMessagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LennyMessagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119D88623B0D6D000DC7921 /* LennyMessagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LennyMessagingTests.swift; sourceTree = "<group>"; };
+		F119D88823B0D6D000DC7921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F119D88D23B0D6D000DC7921 /* LennyMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LennyMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119D89123B0D6D000DC7921 /* LennyMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LennyMessagingUITests.swift; sourceTree = "<group>"; };
+		F119D89323B0D6D000DC7921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F119D86923B0D6CD00DC7921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D87F23B0D6D000DC7921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D88A23B0D6D000DC7921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F119D86323B0D6CD00DC7921 = {
+			isa = PBXGroup;
+			children = (
+				F119D86E23B0D6CD00DC7921 /* LennyMessaging */,
+				F119D88523B0D6D000DC7921 /* LennyMessagingTests */,
+				F119D89023B0D6D000DC7921 /* LennyMessagingUITests */,
+				F119D86D23B0D6CD00DC7921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F119D86D23B0D6CD00DC7921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F119D86C23B0D6CD00DC7921 /* LennyMessaging.app */,
+				F119D88223B0D6D000DC7921 /* LennyMessagingTests.xctest */,
+				F119D88D23B0D6D000DC7921 /* LennyMessagingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F119D86E23B0D6CD00DC7921 /* LennyMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */,
+				F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */,
+				F119D87323B0D6CD00DC7921 /* ContentView.swift */,
+				F119D87523B0D6D000DC7921 /* Assets.xcassets */,
+				F119D87A23B0D6D000DC7921 /* LaunchScreen.storyboard */,
+				F119D87D23B0D6D000DC7921 /* Info.plist */,
+				F119D87723B0D6D000DC7921 /* Preview Content */,
+			);
+			path = LennyMessaging;
+			sourceTree = "<group>";
+		};
+		F119D87723B0D6D000DC7921 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F119D87823B0D6D000DC7921 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F119D88523B0D6D000DC7921 /* LennyMessagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F119D88623B0D6D000DC7921 /* LennyMessagingTests.swift */,
+				F119D88823B0D6D000DC7921 /* Info.plist */,
+			);
+			path = LennyMessagingTests;
+			sourceTree = "<group>";
+		};
+		F119D89023B0D6D000DC7921 /* LennyMessagingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F119D89123B0D6D000DC7921 /* LennyMessagingUITests.swift */,
+				F119D89323B0D6D000DC7921 /* Info.plist */,
+			);
+			path = LennyMessagingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F119D86B23B0D6CD00DC7921 /* LennyMessaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F119D89623B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessaging" */;
+			buildPhases = (
+				F119D86823B0D6CD00DC7921 /* Sources */,
+				F119D86923B0D6CD00DC7921 /* Frameworks */,
+				F119D86A23B0D6CD00DC7921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LennyMessaging;
+			productName = LennyMessaging;
+			productReference = F119D86C23B0D6CD00DC7921 /* LennyMessaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F119D88123B0D6D000DC7921 /* LennyMessagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F119D89923B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingTests" */;
+			buildPhases = (
+				F119D87E23B0D6D000DC7921 /* Sources */,
+				F119D87F23B0D6D000DC7921 /* Frameworks */,
+				F119D88023B0D6D000DC7921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F119D88423B0D6D000DC7921 /* PBXTargetDependency */,
+			);
+			name = LennyMessagingTests;
+			productName = LennyMessagingTests;
+			productReference = F119D88223B0D6D000DC7921 /* LennyMessagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F119D88C23B0D6D000DC7921 /* LennyMessagingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F119D89C23B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingUITests" */;
+			buildPhases = (
+				F119D88923B0D6D000DC7921 /* Sources */,
+				F119D88A23B0D6D000DC7921 /* Frameworks */,
+				F119D88B23B0D6D000DC7921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F119D88F23B0D6D000DC7921 /* PBXTargetDependency */,
+			);
+			name = LennyMessagingUITests;
+			productName = LennyMessagingUITests;
+			productReference = F119D88D23B0D6D000DC7921 /* LennyMessagingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F119D86423B0D6CD00DC7921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "The Spiridon's";
+				TargetAttributes = {
+					F119D86B23B0D6CD00DC7921 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F119D88123B0D6D000DC7921 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F119D86B23B0D6CD00DC7921;
+					};
+					F119D88C23B0D6D000DC7921 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F119D86B23B0D6CD00DC7921;
+					};
+				};
+			};
+			buildConfigurationList = F119D86723B0D6CD00DC7921 /* Build configuration list for PBXProject "LennyMessaging" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F119D86323B0D6CD00DC7921;
+			productRefGroup = F119D86D23B0D6CD00DC7921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F119D86B23B0D6CD00DC7921 /* LennyMessaging */,
+				F119D88123B0D6D000DC7921 /* LennyMessagingTests */,
+				F119D88C23B0D6D000DC7921 /* LennyMessagingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F119D86A23B0D6CD00DC7921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119D87C23B0D6D000DC7921 /* LaunchScreen.storyboard in Resources */,
+				F119D87923B0D6D000DC7921 /* Preview Assets.xcassets in Resources */,
+				F119D87623B0D6D000DC7921 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D88023B0D6D000DC7921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D88B23B0D6D000DC7921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F119D86823B0D6CD00DC7921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */,
+				F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */,
+				F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D87E23B0D6D000DC7921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119D88723B0D6D000DC7921 /* LennyMessagingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119D88923B0D6D000DC7921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119D89223B0D6D000DC7921 /* LennyMessagingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F119D88423B0D6D000DC7921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F119D86B23B0D6CD00DC7921 /* LennyMessaging */;
+			targetProxy = F119D88323B0D6D000DC7921 /* PBXContainerItemProxy */;
+		};
+		F119D88F23B0D6D000DC7921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F119D86B23B0D6CD00DC7921 /* LennyMessaging */;
+			targetProxy = F119D88E23B0D6D000DC7921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F119D87A23B0D6D000DC7921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F119D87B23B0D6D000DC7921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F119D89423B0D6D000DC7921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F119D89523B0D6D000DC7921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F119D89723B0D6D000DC7921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LennyMessaging/Preview Content\"";
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LennyMessaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F119D89823B0D6D000DC7921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LennyMessaging/Preview Content\"";
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LennyMessaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F119D89A23B0D6D000DC7921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				INFOPLIST_FILE = LennyMessagingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LennyMessaging.app/LennyMessaging";
+			};
+			name = Debug;
+		};
+		F119D89B23B0D6D000DC7921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				INFOPLIST_FILE = LennyMessagingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LennyMessaging.app/LennyMessaging";
+			};
+			name = Release;
+		};
+		F119D89D23B0D6D000DC7921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				INFOPLIST_FILE = LennyMessagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LennyMessaging;
+			};
+			name = Debug;
+		};
+		F119D89E23B0D6D000DC7921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z562RK23JW;
+				INFOPLIST_FILE = LennyMessagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CS.LennyMessagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LennyMessaging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F119D86723B0D6CD00DC7921 /* Build configuration list for PBXProject "LennyMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119D89423B0D6D000DC7921 /* Debug */,
+				F119D89523B0D6D000DC7921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F119D89623B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119D89723B0D6D000DC7921 /* Debug */,
+				F119D89823B0D6D000DC7921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F119D89923B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119D89A23B0D6D000DC7921 /* Debug */,
+				F119D89B23B0D6D000DC7921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F119D89C23B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119D89D23B0D6D000DC7921 /* Debug */,
+				F119D89E23B0D6D000DC7921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F119D86423B0D6CD00DC7921 /* Project object */;
+}
