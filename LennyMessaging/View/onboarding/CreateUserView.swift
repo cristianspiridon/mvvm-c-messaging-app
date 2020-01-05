@@ -37,7 +37,7 @@ struct CreateUserView: View {
                                     .padding(.bottom, keyboard.currentHeight / 2)
         
             
-            // after we have a valid username let's show the continue button
+            // After we have a valid username let's show the continue button
                 Button(action: {}) {
                                Text("Continue")
                            }
@@ -51,6 +51,7 @@ struct CreateUserView: View {
                 .aspectRatio(contentMode: .fill)
                 .clipShape(Rectangle()))
             .edgesIgnoringSafeArea(.all)
+            // tap outside resign first responder
             .onTapGesture {
                 UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         }

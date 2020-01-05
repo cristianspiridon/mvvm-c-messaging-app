@@ -11,7 +11,13 @@ import SwiftUI
 import Combine
 
 class CreateUserViewModel:ObservableObject {
-    @Published var name:String = ""
+    @Published var name:String = ""{
+        didSet{
+            if name.contains(" ") {
+                name = name.replacingOccurrences(of: " ", with: "")
+            }
+        }
+    }
     var imageURL:String {
         return "https://api.adorable.io/avatars/150/\(name)"
     }
