@@ -51,6 +51,9 @@ struct CreateUserView: View {
                 .aspectRatio(contentMode: .fill)
                 .clipShape(Rectangle()))
             .edgesIgnoringSafeArea(.all)
+            .onTapGesture {
+                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        }
     }}
 
 struct CreateUserView_Previews: PreviewProvider {
