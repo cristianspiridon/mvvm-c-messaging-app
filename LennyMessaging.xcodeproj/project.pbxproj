@@ -19,6 +19,10 @@
 		F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */; };
 		F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8A823B0E3C100DC7921 /* ImageLoader.swift */; };
 		F119D8AB23B0E3D500DC7921 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8AA23B0E3D500DC7921 /* URLImage.swift */; };
+		F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB123C1F65500B2B37A /* PostModel.swift */; };
+		F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB323C1F79200B2B37A /* PostView.swift */; };
+		F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB523C1FA9100B2B37A /* PostListView.swift */; };
+		F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewModel.swift; sourceTree = "<group>"; };
 		F119D8A823B0E3C100DC7921 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		F119D8AA23B0E3D500DC7921 /* URLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		F1B28CB123C1F65500B2B37A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		F1B28CB323C1F79200B2B37A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		F1B28CB523C1FA9100B2B37A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F119D8A723B0E38E00DC7921 /* Webservice */,
+				F1B28CB723C1FB1300B2B37A /* Models */,
 				F119D8A223B0DD2B00DC7921 /* View Models */,
 				F119D89F23B0DA2500DC7921 /* View */,
 				F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */,
@@ -150,8 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				F119D87323B0D6CD00DC7921 /* ContentView.swift */,
-				F119D8A023B0DA3900DC7921 /* CreateUserView.swift */,
-				F119D8AA23B0E3D500DC7921 /* URLImage.swift */,
+				F1B28CB823C1FB4700B2B37A /* onboarding */,
+				F1B28CBA23C1FB6700B2B37A /* dashboard */,
+				F1B28CB923C1FB5500B2B37A /* util */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */,
+				F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -170,6 +181,39 @@
 				F119D8A823B0E3C100DC7921 /* ImageLoader.swift */,
 			);
 			path = Webservice;
+			sourceTree = "<group>";
+		};
+		F1B28CB723C1FB1300B2B37A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1B28CB123C1F65500B2B37A /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1B28CB823C1FB4700B2B37A /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F119D8A023B0DA3900DC7921 /* CreateUserView.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		F1B28CB923C1FB5500B2B37A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F119D8AA23B0E3D500DC7921 /* URLImage.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		F1B28CBA23C1FB6700B2B37A /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1B28CB323C1F79200B2B37A /* PostView.swift */,
+				F1B28CB523C1FA9100B2B37A /* PostListView.swift */,
+			);
+			path = dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,12 +348,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F119D8AB23B0E3D500DC7921 /* URLImage.swift in Sources */,
+				F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */,
 				F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */,
 				F119D8A123B0DA3900DC7921 /* CreateUserView.swift in Sources */,
+				F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */,
 				F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */,
 				F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */,
 				F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */,
+				F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */,
 				F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */,
+				F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
