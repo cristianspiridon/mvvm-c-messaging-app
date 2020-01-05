@@ -23,6 +23,7 @@
 		F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB323C1F79200B2B37A /* PostView.swift */; };
 		F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB523C1FA9100B2B37A /* PostListView.swift */; };
 		F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */; };
+		F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CBE23C208B100B2B37A /* KeyboardResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F1B28CB323C1F79200B2B37A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F1B28CB523C1FA9100B2B37A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		F1B28CBE23C208B100B2B37A /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				F119D8AA23B0E3D500DC7921 /* URLImage.swift */,
+				F1B28CBE23C208B100B2B37A /* KeyboardResponder.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */,
 				F119D8A123B0DA3900DC7921 /* CreateUserView.swift in Sources */,
 				F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */,
+				F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */,
 				F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */,
 				F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */,
 				F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */,
