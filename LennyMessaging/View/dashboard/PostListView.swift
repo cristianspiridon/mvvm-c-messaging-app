@@ -17,12 +17,10 @@ struct PostListView: View {
     }
 
     var body: some View {
-        GeometryReader { _ in
-            VStack(alignment: .leading) {
-                List {
-                    ForEach(self.viewModel.posts, id: \.id) { post in
-                        PostView(model: post)
-                    }
+        VStack(alignment: .leading) {
+            List {
+                ForEach(self.viewModel.posts, id: \.id) { post in
+                    PostView(model: post)
                 }
             }
         }.onAppear(perform: fetch)

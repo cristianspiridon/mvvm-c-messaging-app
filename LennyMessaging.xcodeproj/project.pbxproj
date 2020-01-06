@@ -25,6 +25,7 @@
 		F124107E23C3636F0023F607 /* JSONPlaceholderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */; };
 		F124108023C3690D0023F607 /* DashboardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124107F23C3690D0023F607 /* DashboardDataSource.swift */; };
 		F124108223C369F00023F607 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124108123C369F00023F607 /* ResponseModels.swift */; };
+		F1AFAB6A23C3DAC700A2F818 /* CommentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFAB6923C3DAC700A2F818 /* CommentsDataSource.swift */; };
 		F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB123C1F65500B2B37A /* PostModel.swift */; };
 		F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB323C1F79200B2B37A /* PostView.swift */; };
 		F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB523C1FA9100B2B37A /* PostListView.swift */; };
@@ -80,6 +81,7 @@
 		F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderAPI.swift; sourceTree = "<group>"; };
 		F124107F23C3690D0023F607 /* DashboardDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDataSource.swift; sourceTree = "<group>"; };
 		F124108123C369F00023F607 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		F1AFAB6923C3DAC700A2F818 /* CommentsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsDataSource.swift; sourceTree = "<group>"; };
 		F1B28CB123C1F65500B2B37A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		F1B28CB323C1F79200B2B37A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F1B28CB523C1FA9100B2B37A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */,
 				F124108123C369F00023F607 /* ResponseModels.swift */,
 				F124107F23C3690D0023F607 /* DashboardDataSource.swift */,
+				F1AFAB6923C3DAC700A2F818 /* CommentsDataSource.swift */,
 			);
 			path = Webservice;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */,
 				F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */,
 				F124107E23C3636F0023F607 /* JSONPlaceholderAPI.swift in Sources */,
+				F1AFAB6A23C3DAC700A2F818 /* CommentsDataSource.swift in Sources */,
 				F119D8A123B0DA3900DC7921 /* CreateUserView.swift in Sources */,
 				F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */,
 				F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */,

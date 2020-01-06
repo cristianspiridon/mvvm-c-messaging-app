@@ -1,5 +1,5 @@
 //
-//  DashboardDataSource.swift
+//  CommentsDataSource.swift
 //  LennyMessaging
 //
 //  Created by The Spiridon's on 06/01/2020.
@@ -8,14 +8,14 @@
 
 import Foundation
 
-final class DashboardDataSource {
+final class CommentsDataSource {
     private let network: Network
 
     init(networkManager: Network = Network()) {
         network = networkManager
     }
 
-    func loadAllPostsData(forced _: Bool = false, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
+    func loadAllComments(for _: Int, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
         network.fetchPosts { [weak self] result in
             guard self != nil else {
                 completion(.failure(.unknown(nil)))
@@ -27,7 +27,7 @@ final class DashboardDataSource {
 }
 
 extension Network {
-    func fetchPosts(completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
-        fetchModel(endpoint: .posts, completion: completion)
+    func fetchComments(for postId: Int, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
+        fetchModel(endpoint: .comments(postId: "\(postId)"), completion: completion)
     }
 }
