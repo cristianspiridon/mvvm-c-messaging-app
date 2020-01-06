@@ -6,19 +6,20 @@
 //  Copyright © 2019 The Spiridon's. All rights reserved.
 //
 
+import Combine
 import Foundation
 import SwiftUI
-import Combine
 
-class CreateUserViewModel:ObservableObject {
-    @Published var name:String = ""{
-        didSet{
+class CreateUserViewModel: ObservableObject {
+    @Published var name: String = "" {
+        didSet {
             if name.contains(" ") {
                 name = name.replacingOccurrences(of: " ", with: "")
             }
         }
     }
-    var imageURL:String {
+
+    var imageURL: String {
         return "https://api.adorable.io/avatars/150/\(name)"
     }
 }

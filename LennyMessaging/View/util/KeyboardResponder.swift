@@ -6,8 +6,8 @@
 //  Copyright © 2020 The Spiridon's. All rights reserved.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 final class KeyboardResponder: ObservableObject {
     private var notificationCenter: NotificationCenter
@@ -29,7 +29,7 @@ final class KeyboardResponder: ObservableObject {
         }
     }
 
-    @objc func keyBoardWillHide(notification: Notification) {
+    @objc func keyBoardWillHide(notification _: Notification) {
         currentHeight = 0
     }
 }

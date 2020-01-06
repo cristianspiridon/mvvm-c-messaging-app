@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FE21419872DB1D55F3322E /* Pods_LennyMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F07DDA471E17962B37747FB /* Pods_LennyMessaging.framework */; };
+		DBCABF112666561DC080F74F /* Pods_LennyMessaging_LennyMessagingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A05ECA4197EDB0A88E922A7 /* Pods_LennyMessaging_LennyMessagingUITests.framework */; };
+		E1975FBD2703B4F023A17E63 /* Pods_LennyMessagingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1502565F4DB7F9B3C64222C4 /* Pods_LennyMessagingTests.framework */; };
 		F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */; };
 		F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */; };
 		F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D87323B0D6CD00DC7921 /* ContentView.swift */; };
@@ -19,6 +22,9 @@
 		F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */; };
 		F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8A823B0E3C100DC7921 /* ImageLoader.swift */; };
 		F119D8AB23B0E3D500DC7921 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119D8AA23B0E3D500DC7921 /* URLImage.swift */; };
+		F124107E23C3636F0023F607 /* JSONPlaceholderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */; };
+		F124108023C3690D0023F607 /* DashboardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124107F23C3690D0023F607 /* DashboardDataSource.swift */; };
+		F124108223C369F00023F607 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124108123C369F00023F607 /* ResponseModels.swift */; };
 		F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB123C1F65500B2B37A /* PostModel.swift */; };
 		F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB323C1F79200B2B37A /* PostView.swift */; };
 		F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB523C1FA9100B2B37A /* PostListView.swift */; };
@@ -44,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A05ECA4197EDB0A88E922A7 /* Pods_LennyMessaging_LennyMessagingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LennyMessaging_LennyMessagingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A30EB315677AE285A04B70F /* Pods-LennyMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessaging.debug.xcconfig"; path = "Target Support Files/Pods-LennyMessaging/Pods-LennyMessaging.debug.xcconfig"; sourceTree = "<group>"; };
+		1502565F4DB7F9B3C64222C4 /* Pods_LennyMessagingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LennyMessagingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AB1970CA9E5C987E9FC5A9 /* Pods-LennyMessagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessagingTests.debug.xcconfig"; path = "Target Support Files/Pods-LennyMessagingTests/Pods-LennyMessagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E448D4212A055EAD8E9DF3A /* Pods-LennyMessaging-LennyMessagingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessaging-LennyMessagingUITests.debug.xcconfig"; path = "Target Support Files/Pods-LennyMessaging-LennyMessagingUITests/Pods-LennyMessaging-LennyMessagingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F07DDA471E17962B37747FB /* Pods_LennyMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LennyMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CE3F6059E90BC359DC97FC /* Pods-LennyMessaging-LennyMessagingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessaging-LennyMessagingUITests.release.xcconfig"; path = "Target Support Files/Pods-LennyMessaging-LennyMessagingUITests/Pods-LennyMessaging-LennyMessagingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A20058C57DBD12CCE48D207B /* Pods-LennyMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessaging.release.xcconfig"; path = "Target Support Files/Pods-LennyMessaging/Pods-LennyMessaging.release.xcconfig"; sourceTree = "<group>"; };
+		B620374B4E44BCEB19EE9FB3 /* Pods-LennyMessagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LennyMessagingTests.release.xcconfig"; path = "Target Support Files/Pods-LennyMessagingTests/Pods-LennyMessagingTests.release.xcconfig"; sourceTree = "<group>"; };
 		F119D86C23B0D6CD00DC7921 /* LennyMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LennyMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +77,9 @@
 		F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewModel.swift; sourceTree = "<group>"; };
 		F119D8A823B0E3C100DC7921 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		F119D8AA23B0E3D500DC7921 /* URLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderAPI.swift; sourceTree = "<group>"; };
+		F124107F23C3690D0023F607 /* DashboardDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDataSource.swift; sourceTree = "<group>"; };
+		F124108123C369F00023F607 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
 		F1B28CB123C1F65500B2B37A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		F1B28CB323C1F79200B2B37A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F1B28CB523C1FA9100B2B37A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FE21419872DB1D55F3322E /* Pods_LennyMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1975FBD2703B4F023A17E63 /* Pods_LennyMessagingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCABF112666561DC080F74F /* Pods_LennyMessaging_LennyMessagingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0B6D7A55A4505FFC15104B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A30EB315677AE285A04B70F /* Pods-LennyMessaging.debug.xcconfig */,
+				A20058C57DBD12CCE48D207B /* Pods-LennyMessaging.release.xcconfig */,
+				5E448D4212A055EAD8E9DF3A /* Pods-LennyMessaging-LennyMessagingUITests.debug.xcconfig */,
+				70CE3F6059E90BC359DC97FC /* Pods-LennyMessaging-LennyMessagingUITests.release.xcconfig */,
+				18AB1970CA9E5C987E9FC5A9 /* Pods-LennyMessagingTests.debug.xcconfig */,
+				B620374B4E44BCEB19EE9FB3 /* Pods-LennyMessagingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6898B575BDFA6CAA3B76B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F07DDA471E17962B37747FB /* Pods_LennyMessaging.framework */,
+				0A05ECA4197EDB0A88E922A7 /* Pods_LennyMessaging_LennyMessagingUITests.framework */,
+				1502565F4DB7F9B3C64222C4 /* Pods_LennyMessagingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F119D86323B0D6CD00DC7921 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +145,8 @@
 				F119D88523B0D6D000DC7921 /* LennyMessagingTests */,
 				F119D89023B0D6D000DC7921 /* LennyMessagingUITests */,
 				F119D86D23B0D6CD00DC7921 /* Products */,
+				B0B6D7A55A4505FFC15104B6 /* Pods */,
+				E6898B575BDFA6CAA3B76B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +227,9 @@
 			isa = PBXGroup;
 			children = (
 				F119D8A823B0E3C100DC7921 /* ImageLoader.swift */,
+				F124107D23C3636F0023F607 /* JSONPlaceholderAPI.swift */,
+				F124107F23C3690D0023F607 /* DashboardDataSource.swift */,
+				F124108123C369F00023F607 /* ResponseModels.swift */,
 			);
 			path = Webservice;
 			sourceTree = "<group>";
@@ -226,6 +275,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F119D89623B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessaging" */;
 			buildPhases = (
+				68A4E71D84F42C6BFDF1D10C /* [CP] Check Pods Manifest.lock */,
+				F124107C23C2AC710023F607 /* ShellScript */,
 				F119D86823B0D6CD00DC7921 /* Sources */,
 				F119D86923B0D6CD00DC7921 /* Frameworks */,
 				F119D86A23B0D6CD00DC7921 /* Resources */,
@@ -243,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F119D89923B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingTests" */;
 			buildPhases = (
+				78B085C717F104BF154B8834 /* [CP] Check Pods Manifest.lock */,
 				F119D87E23B0D6D000DC7921 /* Sources */,
 				F119D87F23B0D6D000DC7921 /* Frameworks */,
 				F119D88023B0D6D000DC7921 /* Resources */,
@@ -261,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F119D89C23B0D6D000DC7921 /* Build configuration list for PBXNativeTarget "LennyMessagingUITests" */;
 			buildPhases = (
+				26F0352653C583A7088DB688 /* [CP] Check Pods Manifest.lock */,
 				F119D88923B0D6D000DC7921 /* Sources */,
 				F119D88A23B0D6D000DC7921 /* Frameworks */,
 				F119D88B23B0D6D000DC7921 /* Resources */,
@@ -345,6 +398,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26F0352653C583A7088DB688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LennyMessaging-LennyMessagingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A4E71D84F42C6BFDF1D10C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LennyMessaging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B085C717F104BF154B8834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LennyMessagingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F124107C23C2AC710023F607 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F119D86823B0D6CD00DC7921 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -353,15 +492,18 @@
 				F119D8AB23B0E3D500DC7921 /* URLImage.swift in Sources */,
 				F1B28CB223C1F65500B2B37A /* PostModel.swift in Sources */,
 				F119D87023B0D6CD00DC7921 /* AppDelegate.swift in Sources */,
+				F124107E23C3636F0023F607 /* JSONPlaceholderAPI.swift in Sources */,
 				F119D8A123B0DA3900DC7921 /* CreateUserView.swift in Sources */,
 				F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */,
 				F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */,
 				F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */,
 				F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */,
+				F124108023C3690D0023F607 /* DashboardDataSource.swift in Sources */,
 				F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */,
 				F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */,
 				F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */,
 				F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */,
+				F124108223C369F00023F607 /* ResponseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +666,7 @@
 		};
 		F119D89723B0D6D000DC7921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A30EB315677AE285A04B70F /* Pods-LennyMessaging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +687,7 @@
 		};
 		F119D89823B0D6D000DC7921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20058C57DBD12CCE48D207B /* Pods-LennyMessaging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +708,7 @@
 		};
 		F119D89A23B0D6D000DC7921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AB1970CA9E5C987E9FC5A9 /* Pods-LennyMessagingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,6 +731,7 @@
 		};
 		F119D89B23B0D6D000DC7921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B620374B4E44BCEB19EE9FB3 /* Pods-LennyMessagingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +754,7 @@
 		};
 		F119D89D23B0D6D000DC7921 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E448D4212A055EAD8E9DF3A /* Pods-LennyMessaging-LennyMessagingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -628,6 +775,7 @@
 		};
 		F119D89E23B0D6D000DC7921 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CE3F6059E90BC359DC97FC /* Pods-LennyMessaging-LennyMessagingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

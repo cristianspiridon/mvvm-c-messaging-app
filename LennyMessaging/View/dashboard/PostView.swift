@@ -9,23 +9,20 @@
 import SwiftUI
 
 struct PostView: View {
-    
-    let model:PostModel
-    
+    let model: PostModel
+
     var body: some View {
         VStack(alignment: .leading) {
-            
             /// Post title
             Text(model.title)
                 .font(.title)
                 .lineLimit(Int.max)
                 .padding()
                 .fixedSize(horizontal: false, vertical: true)
-             
+
             /// Post body
             Text(model.body)
                 .padding([.leading, .trailing, .bottom])
-            
         }
     }
 }

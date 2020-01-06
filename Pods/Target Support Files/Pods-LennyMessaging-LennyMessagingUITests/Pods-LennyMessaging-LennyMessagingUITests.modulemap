@@ -1,0 +1,6 @@
+framework module Pods_LennyMessaging_LennyMessagingUITests {
+  umbrella header "Pods-LennyMessaging-LennyMessagingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

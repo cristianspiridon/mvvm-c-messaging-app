@@ -9,20 +9,29 @@
 import SwiftUI
 
 struct PostListView: View {
-    
-    @ObservedObject var viewModel:PostListViewModel
-    
+    @ObservedObject var viewModel: PostListViewModel
+
+    init(viewModel: PostListViewModel) {
+        self.viewModel = viewModel
+    }
+
     var body: some View {
-        List {
-            ForEach(self.viewModel.posts, id: \.id) { post in
-                PostView(model: post)
+        VStack {
+            List {
+                ForEach(self.viewModel.posts, id: \.id) { post in
+                    PostView(model: post)
+                }
             }
-        }
+        }.onAppear(perform: fetch)
+    }
+
+    private func fetch() {
+        viewModel.fetchPosts()
     }
 }
 
 struct PostListView_Previews: PreviewProvider {
     static var previews: some View {
-        PostListView(viewModel: PostListViewModel(posts: PostModel.allSamples()))
+        PostListView(viewModel: PostListViewModel(posts: PostModel.allSamples(), dataSource: DashboardDataSource(networkManager: Network())))
     }
 }
