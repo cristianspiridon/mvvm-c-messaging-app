@@ -10,26 +10,26 @@ import Foundation
 
 final class DashboardDataSource {
     private let network: Network
-    private var allPosts: AllPosts?
+    private var allposts: [PostReponse]?
 
     init(networkManager: Network = Network()) {
         network = networkManager
     }
 
-    func loadAllPostsData(forced: Bool = false, completion: @escaping (Result<AllPosts, NetworkError>) -> Void) {
-        if let posts = allPosts, !forced {
+    func loadAllPostsData(forced: Bool = false, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
+        if let posts = allposts, !forced {
             completion(.success(posts))
             return
         }
 
-        network.fetchAllPosts { [weak self] result in
+        network.fetchPosts { [weak self] result in
             guard let self = self else {
                 completion(.failure(.unknown(nil)))
                 return
             }
 
             if case let Result.success(downloadedPosts) = result {
-                self.allPosts = downloadedPosts
+                self.allposts = downloadedPosts
             }
 
             completion(result)
@@ -38,7 +38,7 @@ final class DashboardDataSource {
 }
 
 extension Network {
-    func fetchAllPosts(completion: @escaping (Result<AllPosts, NetworkError>) -> Void) {
+    func fetchPosts(completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
         fetchModel(endpoint: .posts, completion: completion)
     }
 }

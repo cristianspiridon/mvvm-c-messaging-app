@@ -13,16 +13,20 @@ struct PostListView: View {
 
     init(viewModel: PostListViewModel) {
         self.viewModel = viewModel
+        UITableView.appearance().separatorColor = .clear
     }
 
     var body: some View {
-        VStack {
-            List {
-                ForEach(self.viewModel.posts, id: \.id) { post in
-                    PostView(model: post)
+        GeometryReader { _ in
+            VStack(alignment: .leading) {
+                List {
+                    ForEach(self.viewModel.posts, id: \.id) { post in
+                        PostView(model: post)
+                    }
                 }
             }
         }.onAppear(perform: fetch)
+            .navigationBarTitle("Posts")
     }
 
     private func fetch() {

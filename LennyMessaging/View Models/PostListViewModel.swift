@@ -25,6 +25,15 @@ class PostListViewModel: ObservableObject {
     }
 
     func fetchPosts() {
-        print("fetch data")
+        dataSource.loadAllPostsData { [weak self] result in
+            switch result {
+            case let .success(response):
+                DispatchQueue.main.async {
+                    self?.posts = response.compactMap { PostModel(id: $0.id, title: $0.title, body: $0.body) }
+                }
+            case let .failure(error):
+                print("We have an error, ", error)
+            }
+        }
     }
 }

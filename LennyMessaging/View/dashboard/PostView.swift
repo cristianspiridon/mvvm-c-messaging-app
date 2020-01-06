@@ -13,6 +13,9 @@ struct PostView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
+            HStack {
+                Spacer()
+            }
             /// Post title
             Text(model.title)
                 .font(.title)
@@ -23,7 +26,8 @@ struct PostView: View {
             /// Post body
             Text(model.body)
                 .padding([.leading, .trailing, .bottom])
-        }
+        }.background(Color.black.opacity(0.1))
+            .cornerRadius(12)
     }
 }
 

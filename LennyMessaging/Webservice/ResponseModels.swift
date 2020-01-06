@@ -8,10 +8,6 @@
 
 import Foundation
 
-struct AllPosts: Codable {
-    let posts: [PostReponse]
-}
-
 struct PostReponse: Codable {
     let userId: Int
     let id: Int
