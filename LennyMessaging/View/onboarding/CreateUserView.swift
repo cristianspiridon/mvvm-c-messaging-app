@@ -18,7 +18,7 @@ struct CreateUserView: View {
     @ObservedObject var createUserVM = CreateUserViewModel()
     @ObservedObject var keyboard = KeyboardResponder()
 
-    private let postListVM = PostListViewModel(dashboardDataSource: DashboardDataSource(networkManager: Network()))
+    private let postListVM = PostListViewModel()
 
     var body: some View {
         NavigationView {

@@ -15,8 +15,8 @@ final class CommentsDataSource {
         network = networkManager
     }
 
-    func loadAllComments(for _: Int, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
-        network.fetchPosts { [weak self] result in
+    func loadAllComments(for postId: Int, completion: @escaping (Result<[CommentResponse], NetworkError>) -> Void) {
+        network.fetchComments(for: postId) { [weak self] result in
             guard self != nil else {
                 completion(.failure(.unknown(nil)))
                 return
@@ -27,7 +27,7 @@ final class CommentsDataSource {
 }
 
 extension Network {
-    func fetchComments(for postId: Int, completion: @escaping (Result<[PostReponse], NetworkError>) -> Void) {
+    func fetchComments(for postId: Int, completion: @escaping (Result<[CommentResponse], NetworkError>) -> Void) {
         fetchModel(endpoint: .comments(postId: "\(postId)"), completion: completion)
     }
 }

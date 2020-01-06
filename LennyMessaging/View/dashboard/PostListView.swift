@@ -20,7 +20,9 @@ struct PostListView: View {
         VStack(alignment: .leading) {
             List {
                 ForEach(self.viewModel.posts, id: \.id) { post in
-                    PostView(model: post)
+                    NavigationLink(destination: CommentsListView(viewModel: CommentsListViewModel(post: post, comments: []))) {
+                        PostView(model: post)
+                    }
                 }
             }
         }.onAppear(perform: fetch)
@@ -34,6 +36,6 @@ struct PostListView: View {
 
 struct PostListView_Previews: PreviewProvider {
     static var previews: some View {
-        PostListView(viewModel: PostListViewModel(posts: PostModel.allSamples(), dataSource: DashboardDataSource(networkManager: Network())))
+        PostListView(viewModel: PostListViewModel(posts: PostModel.allSamples()))
     }
 }

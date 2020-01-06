@@ -13,14 +13,12 @@ import SwiftUI
 class PostListViewModel: ObservableObject {
     @Published var posts = [PostModel]()
 
-    private let dataSource: DashboardDataSource
+    private let dataSource: DashboardDataSource = DashboardDataSource(networkManager: Network())
 
-    init(dashboardDataSource: DashboardDataSource) {
-        dataSource = dashboardDataSource
-    }
+    init() {}
 
-    convenience init(posts: [PostModel], dataSource: DashboardDataSource) {
-        self.init(dashboardDataSource: dataSource)
+    convenience init(posts: [PostModel]) {
+        self.init()
         self.posts = posts
     }
 

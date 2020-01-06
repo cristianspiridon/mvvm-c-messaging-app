@@ -14,3 +14,11 @@ struct PostReponse: Codable {
     let title: String
     let body: String
 }
+
+struct CommentResponse: Codable {
+    let postId: Int
+    let id: Int
+    let name: String
+    let email: String
+    let body: String
+}
