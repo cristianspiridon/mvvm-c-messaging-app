@@ -35,6 +35,8 @@
 		F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CB523C1FA9100B2B37A /* PostListView.swift */; };
 		F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */; };
 		F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B28CBE23C208B100B2B37A /* KeyboardResponder.swift */; };
+		F1B3712123C3EF3E00CCA012 /* AddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3712023C3EF3D00CCA012 /* AddPostView.swift */; };
+		F1B3712323C3F32E00CCA012 /* AddPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3712223C3F32E00CCA012 /* AddPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		F1B28CB523C1FA9100B2B37A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 		F1B28CBE23C208B100B2B37A /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		F1B3712023C3EF3D00CCA012 /* AddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostView.swift; sourceTree = "<group>"; };
+		F1B3712223C3F32E00CCA012 /* AddPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,10 +177,10 @@
 		F119D86E23B0D6CD00DC7921 /* LennyMessaging */ = {
 			isa = PBXGroup;
 			children = (
-				F119D8A723B0E38E00DC7921 /* Webservice */,
-				F1B28CB723C1FB1300B2B37A /* Models */,
-				F119D8A223B0DD2B00DC7921 /* View Models */,
 				F119D89F23B0DA2500DC7921 /* View */,
+				F119D8A223B0DD2B00DC7921 /* View Models */,
+				F1B28CB723C1FB1300B2B37A /* Models */,
+				F119D8A723B0E38E00DC7921 /* Webservice */,
 				F119D86F23B0D6CD00DC7921 /* AppDelegate.swift */,
 				F119D87123B0D6CD00DC7921 /* SceneDelegate.swift */,
 				F119D87523B0D6D000DC7921 /* Assets.xcassets */,
@@ -230,6 +234,7 @@
 				F119D8A523B0DD4D00DC7921 /* CreateUserViewModel.swift */,
 				F1B28CBB23C1FBE600B2B37A /* PostListViewModel.swift */,
 				F1AFAB6D23C3DB9400A2F818 /* CommentsListViewModel.swift */,
+				F1B3712223C3F32E00CCA012 /* AddPostViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				F1B28CB523C1FA9100B2B37A /* PostListView.swift */,
 				F1AFAB6B23C3DB7500A2F818 /* CommentsListView.swift */,
 				F1AFAB7123C3E2BB00A2F818 /* CommentView.swift */,
+				F1B3712023C3EF3D00CCA012 /* AddPostView.swift */,
 			);
 			path = dashboard;
 			sourceTree = "<group>";
@@ -514,11 +520,13 @@
 				F1B28CB623C1FA9100B2B37A /* PostListView.swift in Sources */,
 				F1B28CBF23C208B100B2B37A /* KeyboardResponder.swift in Sources */,
 				F119D8A923B0E3C100DC7921 /* ImageLoader.swift in Sources */,
+				F1B3712123C3EF3E00CCA012 /* AddPostView.swift in Sources */,
 				F1AFAB7023C3DBE200A2F818 /* CommentModel.swift in Sources */,
 				F119D8A623B0DD4D00DC7921 /* CreateUserViewModel.swift in Sources */,
 				F124108023C3690D0023F607 /* DashboardDataSource.swift in Sources */,
 				F119D87223B0D6CD00DC7921 /* SceneDelegate.swift in Sources */,
 				F1B28CB423C1F79200B2B37A /* PostView.swift in Sources */,
+				F1B3712323C3F32E00CCA012 /* AddPostViewModel.swift in Sources */,
 				F119D87423B0D6CD00DC7921 /* ContentView.swift in Sources */,
 				F1B28CBC23C1FBE600B2B37A /* PostListViewModel.swift in Sources */,
 				F1AFAB6E23C3DB9400A2F818 /* CommentsListViewModel.swift in Sources */,
