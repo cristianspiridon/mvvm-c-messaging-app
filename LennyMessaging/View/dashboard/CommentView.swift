@@ -23,8 +23,13 @@ struct CommentView: View {
                 Text(self.commentModel.name)
                 Spacer()
             }
-            Text(self.commentModel.body)
-                .padding()
+            VStack {
+                Text(self.commentModel.body)
+                    .padding()
+                HStack {
+                    Spacer()
+                }
+            }
         }
     }
 }

@@ -29,13 +29,15 @@ struct CreateUserView: View {
                     .foregroundColor(Color.pink)
                     .padding()
                     .multilineTextAlignment(.center)
+                    .animation(.easeInOut)
 
                 // Avatar Image
                 URLImage(url: self.createUserVM.imageURL)
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 200, height: 200).animation(nil)
                     .clipShape(Circle())
                     .padding([.top, .bottom], 30)
+                    .animation(.easeInOut)
 
                 // User name Input
                 TextField("Enter your username", text: self.$createUserVM.name)
@@ -43,6 +45,7 @@ struct CreateUserView: View {
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom, keyboard.currentHeight / 2)
+                    .animation(.easeInOut)
 
                 // After we have a valid username let's show the continue button
                 NavigationLink(destination: PostListView(viewModel: postListVM)) {
